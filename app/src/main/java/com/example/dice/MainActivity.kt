@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,11 +20,13 @@ class MainActivity : AppCompatActivity() {
             rollDice()
 
         }
-        
+
     }
 
     private fun rollDice() {
         val resultText: TextView = findViewById(R.id.result_text)
-        resultText.text = "Dice rolled!"
+
+        val randomInt = Random().nextInt(6) + 1
+        resultText.text = randomInt.toString()
     }
 }
