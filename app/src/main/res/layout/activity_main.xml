@@ -14,13 +14,13 @@
             android:layout_gravity="center_horizontal"
             android:src="@drawable/empty_dice"
             tools:src="@drawable/empty_dice"
-    />
+            android:contentDescription="@string/todo"/>
 
     <Button
             android:id="@+id/roll_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/roll" />
+            android:text="@string/roll" android:fontFamily="@font/roboto_medium" android:textAllCaps="false"/>
 
 </LinearLayout>

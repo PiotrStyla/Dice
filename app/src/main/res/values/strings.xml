@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Dice</string>
-    <string name="roll">ROLL</string>
+    <string name="roll">Rzuć!</string>
     <string name="text_view1">1</string>
+    <string name="todo">TODO</string>
 </resources>
